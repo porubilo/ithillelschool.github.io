@@ -1,0 +1,1391 @@
+﻿/* line 3, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.discount.grp-row {
+  overflow: visible !important;
+}
+/* line 6, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.discount.grp-row .chzn-container {
+  min-width: 250px;
+}
+/* line 10, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.discount.grp-row .chzn-drop {
+  min-width: 248px;
+}
+/* line 14, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.discount.grp-row input {
+  min-width: 240px;
+}
+
+/* line 19, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.chosen-support, .grp-row.student, .row.student, .form-container .row, .grp-form-container .grp-row, .grp-row.bind_application, .grp-row.exam_instructor, .grp-row.course {
+  overflow: visible !important;
+}
+/* line 21, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.chosen-support select, .grp-row.student select, .row.student select, .form-container .row select, .grp-form-container .grp-row select, .grp-row.bind_application select, .grp-row.exam_instructor select, .grp-row.course select {
+  min-width: 250px;
+}
+
+/* line 26, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.payment-result {
+  margin-top: 10px !important;
+}
+
+/* line 30, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#select-all-block {
+  margin-top: 5px;
+}
+/* line 33, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#select-all-block a {
+  font-weight: bold;
+}
+
+/* line 38, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#cancel-all-block a {
+  font-weight: bold;
+}
+
+/* line 42, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.admin-logo {
+  float: left;
+  margin-right: 15px;
+}
+
+/* line 47, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.admin-title {
+  border-left: 0;
+}
+/* line 49, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.admin-title a {
+  color: white !important;
+}
+/* line 51, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.admin-title a:hover {
+  color: #59AFCC !important;
+}
+
+/* line 57, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.inline-date-text {
+  line-height: 25px;
+}
+
+/* line 61, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.stat-row {
+  height: 14px;
+  line-height: 12px;
+}
+
+/* line 66, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.pretty-table {
+  border-top: 0 !important;
+  width: 100%;
+}
+
+/* line 72, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#form-new-expense #id_recipient {
+  min-width: 250px;
+}
+
+/* line 78, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.admin-report .module {
+  margin-bottom: 10px;
+}
+/* line 82, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.admin-report b {
+  font-weight: bold;
+}
+
+/* line 87, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.certificate-label {
+  background: -moz-linear-gradient(center top, #666666, #444444) repeat scroll 0 0 transparent;
+  display: block;
+  border-radius: 15px 0 0 15px !important;
+  padding: 4px 5px 4px 15px !important;
+  opacity: 0.6;
+  height: 17px;
+  font-size: 11px;
+  color: #DADADA;
+}
+
+/* line 101, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.certificate-item {
+  margin: 0 !important;
+}
+/* line 104, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.certificate-item a {
+  border-radius: 0 !important;
+  padding: 4px 7px !important;
+}
+/* line 110, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.certificate-item.last a {
+  border-radius: 0 15px 15px 0 !important;
+  padding-right: 10px !important;
+}
+
+/* line 117, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#dashboard-wrapper {
+  width: 1200px;
+}
+
+/* line 121, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.actions-header {
+  padding: 3px 0px 2px 10px !important;
+  background: #D9DEE2 !important;
+}
+
+/* line 126, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.action-list {
+  padding-left: 0px !important;
+  background: #FFF;
+}
+
+/* line 131, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.action-list span.object {
+  display: block;
+  padding-left: 130px;
+}
+
+/* line 136, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.action-list span.date {
+  display: block;
+  float: left;
+  padding-left: 20px;
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+}
+
+/* line 144, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.action-list.action-add span.date {
+  background-image: url("../grappelli/images/icons-small/add-link-1.png");
+}
+
+/* line 148, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.action-list.action-change span.date {
+  background-image: url("../grappelli/images/icons-small/change-link-1.png");
+}
+
+/* line 152, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.action-list.action-delete span.date {
+  background-image: url("../grappelli/images/icons-small/delete-link-1.png");
+}
+
+/* line 157, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-transactions table {
+  width: 100%;
+}
+/* line 161, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-transactions th, #student-transactions td {
+  font-size: 12px;
+}
+/* line 165, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-transactions .sum {
+  width: 20%;
+}
+/* line 169, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-transactions .date {
+  width: 20%;
+}
+/* line 173, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-transactions .why {
+  width: 60%;
+}
+
+/* line 178, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#group-list {
+  font-size: 13px;
+  line-height: 1em;
+}
+/* line 182, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#group-list td {
+  font-weight: bold;
+}
+/* line 186, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#group-list a {
+  line-height: 1em;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+/* line 193, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#counter {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* line 197, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#counter span {
+  font-weight: bold;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+/* line 204, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#training {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow: hidden;
+}
+/* line 209, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#training .train {
+  width: 400px;
+  float: left;
+}
+/* line 214, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#training table, #training tr, #training td, #training th {
+  border: 1px #CCC solid;
+  border-collapse: collapse;
+}
+/* line 219, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#training td, #training th {
+  text-align: center;
+  padding: 5px;
+}
+/* line 224, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#training a {
+  font-size: 13px;
+  font-weight: bold;
+}
+/* line 229, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#training h1 {
+  margin: 0 0 5px 0;
+  padding: 0;
+  font-size: 14px;
+}
+/* line 235, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#training table {
+  margin-bottom: 30px;
+}
+
+/* line 240, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.module-header {
+  line-height: 30px;
+  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U1ZTVlNSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2RiZGJkYiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==");
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e5e5e5), color-stop(100%, #dbdbdb));
+  background-image: -webkit-linear-gradient(#e5e5e5, #dbdbdb);
+  background-image: -moz-linear-gradient(#e5e5e5, #dbdbdb);
+  background-image: -o-linear-gradient(#e5e5e5, #dbdbdb);
+  background-image: linear-gradient(#e5e5e5, #dbdbdb);
+  float: left;
+  width: 100%;
+  clear: both;
+  font-weight: bold;
+}
+/* line 254, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.module-header span {
+  padding-left: 10px;
+}
+
+/* line 259, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#schedule-header {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+/* line 264, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#schedule-header span {
+  font-weight: bold;
+}
+
+/* line 269, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+h2 {
+  font-weight: bold;
+}
+/* line 271, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+h2 span {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+/* line 282, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.grp-listing-small a {
+  font-size: 12px;
+}
+
+/* line 287, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.invalid {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+/* line 293, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.advance-report b {
+  font-weight: bold;
+}
+
+/* line 298, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.new-instance {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+/* line 303, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#discipline-block {
+  margin-top: 5px;
+}
+/* line 306, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#discipline-block .row {
+  margin-bottom: 15px;
+}
+/* line 310, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#discipline-block .errors, #discipline-block .success {
+  margin-bottom: 10px;
+}
+/* line 314, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#discipline-block .row ul {
+  margin-top: 5px;
+}
+/* line 318, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#discipline-block .submit {
+  text-align: right;
+}
+/* line 322, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#discipline-block label {
+  font-size: 13px;
+  display: block;
+  font-weight: bold;
+  padding-bottom: 2px;
+}
+/* line 329, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#discipline-block .success {
+  color: green;
+  font-weight: bold;
+}
+
+/* line 336, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#module-exam-results img {
+  position: relative;
+  top: -1px;
+}
+/* line 341, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#module-exam-results .info {
+  padding-top: 3px;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+/* line 348, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#sign-exam-button {
+  margin-top: 5px;
+}
+
+/* line 353, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#module-exam-results span, #module-student-exams span {
+  display: inline-block;
+}
+
+/* line 359, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#module-student-exams .error {
+  color: #CD0000;
+}
+/* line 363, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#module-student-exams .note {
+  font-size: 11px;
+}
+/* line 367, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#module-student-exams .delete {
+  width: 16px;
+  height: 16px;
+  background: url('../images/driving/icon-delete-1.png');
+}
+/* line 372, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#module-student-exams .delete:hover {
+  cursor: pointer;
+  background: url('../images/driving/icon-red-delete-1.png');
+}
+/* line 378, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#module-student-exams .exam {
+  font-weight: bold;
+  font-size: 11px;
+}
+/* line 383, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#module-student-exams option {
+  font-size: 10px;
+}
+/* line 387, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#module-student-exams select {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+/* line 392, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#module-student-exams #sign-exam-button {
+  margin-bottom: 5px;
+}
+
+/* line 397, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.grp-changelist-results th, .grp-changelist-results td {
+  white-space: normal !important;
+}
+
+/* line 402, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-application .help {
+  color: #676767;
+  font-size: 11px;
+  margin-top: 5px;
+}
+/* line 407, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-application td {
+  font-size: 12px;
+  width: 200px;
+}
+/* line 411, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-application td input {
+  width: 200px;
+}
+/* line 416, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-application .info {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+/* line 421, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-application input[type="submit"] {
+  margin-top: 10px;
+}
+/* line 425, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-application .submit {
+  text-align: right;
+  width: 370px;
+}
+/* line 430, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-application td:first-child {
+  width: 130px;
+  text-align: right;
+}
+/* line 435, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-application .fill {
+  margin-bottom: 15px;
+  background: #359FC2;
+  padding: 6px 13px 6px 13px;
+  display: inline-block;
+  color: #FFF;
+  font-weight: bold;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+}
+/* line 444, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-application .fill:hover {
+  background: #484848;
+}
+
+/* line 450, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#grp-navigation {
+  background: #122C4B !important;
+}
+
+/* line 454, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#grp-context-navigation {
+  background: #F7F7F7;
+  border-bottom: 1px #CCC solid;
+}
+
+/* line 461, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.student-body #grp-content h1 {
+  color: #333;
+  font-size: 22px;
+  line-height: 30px;
+}
+/* line 469, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.student-body .grp-row a, .student-body #grp-context-navigation a {
+  color: #666;
+  font-weight: bold;
+}
+/* line 473, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.student-body .grp-row a:hover, .student-body #grp-context-navigation a:hover {
+  color: #333;
+  text-decoration: underline;
+}
+/* line 480, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.student-body .grp-module .grp-row {
+  background: #F7F7F7;
+  border-top: 0 !important;
+  padding-top: 7px !important;
+  padding-bottom: 7px !important;
+}
+/* line 487, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.student-body .module-header {
+  line-height: 1.25em;
+}
+/* line 491, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.student-body h2.module_title, .student-body .module-header {
+  background: #D9DEE2;
+  border: 0;
+  font-size: 14px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: #454545;
+}
+/* line 500, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.student-body .grp-module {
+  border: 0;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  margin-bottom: 15px;
+  background: #F7F7F7;
+  color: #666;
+  font-size: 13px;
+}
+/* line 510, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.student-body body {
+  font-family: helvetica, arial, sans-serif;
+}
+/* line 514, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.student-body .grp-module, .student-body h2.module_title {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+/* line 522, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.student-body .grp-actions {
+  font-size: 12px;
+}
+/* line 526, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.student-body .ui-datepicker-header {
+  background: #D9DEE2;
+  color: #454545;
+}
+/* line 531, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.student-body .ui-datepicker, .student-body .ui-datepicker-calendar {
+  background: #F7F7F7;
+}
+
+/* line 536, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.admin-report .grp-module table, .recent-actions table {
+  border: 0;
+}
+
+/* line 540, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.grp-row .grp-link-internal {
+  background: none;
+  padding: 0;
+}
+
+/* line 545, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-account, #instructor-account, #admin-account {
+  width: 500px;
+}
+/* line 548, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-account label, #instructor-account label, #admin-account label {
+  display: block;
+}
+/* line 552, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-account h2, #instructor-account h2, #admin-account h2 {
+  width: 480px;
+  display: block;
+}
+/* line 558, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-account .grp-row input, #instructor-account .grp-row input, #admin-account .grp-row input {
+  margin-right: 10px;
+}
+/* line 563, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-account .success, #instructor-account .success, #admin-account .success {
+  color: green;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+/* line 570, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-account input[type="text"], #instructor-account input[type="text"], #admin-account input[type="text"] {
+  width: 180px;
+  margin-left: 10px;
+}
+
+/* line 577, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#account-icons {
+  display: block;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* line 582, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#account-icons img {
+  position: relative;
+  top: 6px;
+}
+/* line 587, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#account-icons img.money {
+  top: 7px;
+}
+/* line 592, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#account-icons .transactions b {
+  color: #FFF;
+}
+/* line 597, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#account-icons a {
+  margin-left: 20px;
+}
+/* line 601, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#account-icons span {
+  line-height: 35px;
+  margin-right: 30px;
+}
+/* line 606, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#account-icons a.pay {
+  background: #F7F7F7;
+  padding: 3px 6px 3px 6px;
+  display: inline-block;
+  color: #000 !important;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 613, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#account-icons a.pay:hover {
+  background: #359FC2;
+}
+
+/* line 620, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#grp-user-tools {
+  border: 0 !important;
+}
+
+/* line 625, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#grp-admin-title a {
+  color: #FFF !important;
+}
+
+/* line 631, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-payment label {
+  padding-right: 10px;
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+  font-weight: bold;
+}
+/* line 639, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-payment .error {
+  color: #CD0000;
+  margin: 5px 0 15px 0;
+  font-size: 14px;
+}
+/* line 645, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-payment p {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 260px;
+}
+/* line 651, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-payment .submit {
+  text-align: right;
+  margin-bottom: 5px;
+}
+/* line 656, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-payment #id_amount {
+  width: 120px;
+  margin-right: 3px;
+}
+/* line 661, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-payment #id_kind {
+  width: 160px;
+}
+/* line 665, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-payment .payment-title {
+  height: 20px;
+  line-height: 30px;
+}
+/* line 669, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-payment .payment-title span {
+  position: relative;
+  top: -5px;
+}
+/* line 674, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-payment .payment-title img {
+  margin-left: 10px;
+  max-height: 20px;
+}
+/* line 679, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-payment .payment-title .visa {
+  position: relative;
+  top: -3px;
+}
+
+/* line 686, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.top-logo {
+  width: 30px;
+  position: absolute;
+  top: 4px;
+}
+
+/* line 692, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.site-name {
+  padding-left: 30px;
+  font-weight: bold;
+}
+
+/* line 698, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.grp-module-login .logo-login {
+  width: 30px;
+  position: absolute;
+  top: 35px;
+}
+/* line 704, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.grp-module-login a.login-title {
+  font-weight: bold;
+  position: relative;
+  left: 40px;
+  top: -3px;
+}
+/* line 705, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.grp-module-login a.login-title:hover {
+  color: #EEEEEE !important;
+}
+
+/* line 717, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#instrument-email input[type="text"] {
+  width: 760px;
+}
+
+/* line 723, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#grp-navigation .mail {
+  position: relative;
+}
+/* line 725, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#grp-navigation .mail img {
+  position: absolute;
+  top: -6px;
+  right: 0;
+  width: 26px;
+  height: 26px;
+}
+/* line 733, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#grp-navigation .mail span.label {
+  position: absolute;
+  border-radius: 50%;
+  background: red;
+  color: #FFF;
+  font-size: 10px;
+  line-height: 0.9em;
+  min-width: 1em;
+  text-align: center;
+  padding: 2px;
+  right: 0;
+  top: -5px;
+  margin-right: -5px;
+}
+/* line 748, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#grp-navigation .mail a {
+  position: relative;
+}
+
+/* line 754, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#module-student-feedback {
+  padding: 0 5px 5px 5px;
+  position: relative;
+}
+/* line 758, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#module-student-feedback b, #module-student-feedback i {
+  font-size: 11px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 3px;
+}
+/* line 765, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#module-student-feedback textarea {
+  width: 350px;
+  height: 100px;
+}
+/* line 770, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#module-student-feedback i {
+  display: inline;
+}
+/* line 774, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#module-student-feedback label {
+  display: block;
+  margin-bottom: 10px;
+}
+/* line 779, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#module-student-feedback .errorlist {
+  padding-top: 2px;
+}
+/* line 783, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#module-student-feedback .success {
+  color: #83BF30;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+/* line 789, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#module-student-feedback .replies {
+  position: absolute;
+  bottom: 10px;
+  font-size: 12px;
+  text-align: left;
+}
+
+/* line 797, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-feedback-replies {
+  width: 600px;
+}
+/* line 800, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-feedback-replies .grp-row {
+  float: none;
+}
+/* line 804, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-feedback-replies h3 {
+  font-weight: normal;
+}
+/* line 808, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-feedback-replies i {
+  font-weight: bold;
+}
+/* line 812, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-feedback-replies .dialog-message {
+  display: none;
+}
+/* line 815, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-feedback-replies .dialog-message input[type="submit"] {
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 25px;
+  margin-left: 15px;
+}
+/* line 822, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-feedback-replies .dialog-message input[type="text"] {
+  width: 470px;
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 21px;
+  margin-top: 2px;
+}
+
+/* line 832, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-discount-code {
+  margin-top: 100px;
+}
+/* line 835, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-discount-code label {
+  font-weight: bold;
+  margin: 0 10px 0 10px;
+}
+/* line 840, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-discount-code input[type="text"] {
+  width: 140px;
+}
+/* line 844, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-discount-code p {
+  margin-top: 5px;
+}
+/* line 848, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-discount-code .submit {
+  margin: 10px 0 5px 84px;
+}
+/* line 852, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student-discount-code .errorlist li {
+  color: #CD0000;
+  margin: 5px 0 15px 10px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+/* line 860, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.discount-activated {
+  font-size: 16px;
+  font-weight: bold;
+  color: green;
+  margin-bottom: 10px;
+}
+
+/* line 868, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#chat .info {
+  font-size: 12px;
+  margin-bottom: 2px;
+  color: #717171;
+}
+/* line 874, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#chat .admin {
+  color: #EE5335;
+}
+/* line 878, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#chat .instructor {
+  color: #0000FF;
+}
+/* line 882, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#chat .student {
+  color: #00923F;
+}
+/* line 886, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#chat .text {
+  font-size: 13px;
+  color: #000;
+}
+/* line 891, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#chat .messages-block {
+  width: 778px;
+  min-height: 200px;
+  background: #F7F7F7;
+  border: 1px #CCCCCC dashed;
+  margin-top: 20px;
+  padding: 10px;
+}
+/* line 900, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#chat .chat-message {
+  margin-bottom: 15px;
+}
+/* line 903, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#chat .chat-message:last-child {
+  margin: 0;
+}
+/* line 908, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#chat .load-more {
+  width: 800px;
+  text-align: center;
+}
+/* line 911, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#chat .load-more input {
+  margin: 10px 0 0 0;
+}
+/* line 918, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#chat textarea {
+  margin-bottom: 10px;
+  width: 800px;
+  height: 70px;
+  display: block;
+}
+/* line 925, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#chat .error textarea {
+  border: 1px red solid;
+}
+/* line 929, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#chat input[type="submit"] {
+  margin-left: 714px;
+}
+/* line 933, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#chat .yours {
+  font-weight: bold;
+}
+
+/* line 938, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.grp-messagelist li {
+  background: #B90101;
+  color: #FFF;
+  border: 1px #000 solid;
+}
+
+/* line 945, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.admin-payments-report td {
+  position: relative;
+}
+/* line 949, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.admin-payments-report td a {
+  margin-right: 30px;
+}
+/* line 953, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.admin-payments-report input.close {
+  position: absolute;
+  right: 10px;
+  top: 21px;
+}
+
+/* line 961, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.grp-horizontal-list a.no-background {
+  background-image: none !important;
+}
+
+/* line 966, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.admin-tax-report .count, .admin-tax-report .export {
+  margin-bottom: 10px;
+}
+
+/* line 970, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.admin-exam-signup {
+  margin-top: 15px;
+  width: 300px;
+  padding: 15px;
+}
+/* line 975, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.admin-exam-signup select {
+  width: 100%;
+}
+
+/* line 982, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#exam-signup .step h3 {
+  font-size: 16px;
+  background: none;
+  background-image: none;
+  margin: 15px 0 10px 0;
+  padding: 0;
+  border: 0;
+}
+/* line 991, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#exam-signup .step p {
+  margin-bottom: 10px;
+  line-height: 1.1em;
+}
+/* line 997, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#exam-signup .buttons-wrapper {
+  margin-top: 20px;
+  position: relative;
+  height: 25px;
+  display: none;
+}
+/* line 1004, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#exam-signup button {
+  width: auto;
+  margin: 0;
+  padding: 0 10px 0 10px;
+  position: absolute;
+}
+/* line 1010, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#exam-signup button.reset {
+  left: 0;
+  background: #F7F7F7;
+  color: #444444;
+  border: 1px #CCCCCC solid;
+}
+/* line 1017, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#exam-signup button.next {
+  right: 0;
+}
+/* line 1022, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#exam-signup .booking-error {
+  color: red;
+  margin-top: 10px;
+}
+/* line 1027, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#exam-signup .funds-error {
+  color: red;
+  line-height: 1.1em;
+}
+/* line 1032, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#exam-signup select.error {
+  border: 2px red solid;
+}
+/* line 1037, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#exam-signup .step.autodrom select, #exam-signup .step.town select {
+  margin-bottom: 15px;
+}
+/* line 1041, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#exam-signup .step.autodrom .instructor, #exam-signup .step.town .instructor {
+  margin-bottom: 5px;
+}
+/* line 1046, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#exam-signup .booking {
+  display: none;
+  position: relative;
+}
+/* line 1050, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#exam-signup .booking .title {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+/* line 1055, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#exam-signup .booking span {
+  display: block;
+  margin-left: 20px;
+}
+/* line 1060, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#exam-signup .booking b {
+  font-weight: bold;
+}
+/* line 1064, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#exam-signup .booking .delete {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  width: 16px;
+  height: 16px;
+  background: url('../images/driving/icon-delete-1.png');
+}
+/* line 1072, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#exam-signup .booking .delete:hover {
+  cursor: pointer;
+  background: url('../images/driving/icon-red-delete-1.png');
+}
+
+/* line 1080, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#exam-signup.student-exam-signup {
+  padding: 15px;
+}
+/* line 1084, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#exam-signup.student-exam-signup .booking .delete {
+  right: -7px;
+  top: -7px;
+}
+
+/* line 1091, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#chat-menu {
+  margin-bottom: 40px;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+/* line 1096, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#chat-menu ul {
+  overflow: hidden;
+}
+/* line 1100, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#chat-menu li {
+  float: left;
+  margin-right: 30px;
+}
+/* line 1105, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#chat-menu .current {
+  border-bottom: 2px #000 solid;
+}
+/* line 1108, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#chat-menu .current a {
+  color: #000;
+}
+
+/* line 1115, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#admin-feedback-dialog a {
+  font-weight: normal;
+}
+/* line 1119, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#admin-feedback-dialog i {
+  font-weight: bold;
+}
+/* line 1123, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#admin-feedback-dialog .grp-row {
+  background: #EEEEEE;
+  float: none;
+}
+
+/* line 1129, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exchange-send {
+  font-size: 13px;
+}
+/* line 1132, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exchange-send form {
+  display: inline-block;
+}
+/* line 1136, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exchange-send input[type="checkbox"] {
+  margin-right: 5px;
+}
+/* line 1140, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exchange-send .submit {
+  margin-top: 25px;
+}
+/* line 1144, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exchange-send .notice {
+  font-size: 12px;
+  color: #AFAFB0;
+}
+/* line 1149, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exchange-send .money {
+  display: none;
+}
+/* line 1153, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exchange-send .error {
+  color: red;
+  display: none;
+  margin-top: 20px;
+}
+/* line 1159, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exchange-send .notice.first {
+  margin-top: 25px;
+}
+/* line 1163, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exchange-send .action-name {
+  font-size: 14px;
+  font-weight: bold;
+  color: #454545;
+  margin-bottom: 20px;
+  padding-bottom: 3px;
+  border-bottom: 1px #CCCCCC solid;
+}
+/* line 1172, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exchange-send label {
+  display: block;
+  border-bottom: 1px #CCCCCC dotted;
+  margin-bottom: 5px;
+  padding-right: 5px;
+}
+/* line 1179, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exchange-send .generated {
+  width: 500px;
+  display: inline-block;
+}
+/* line 1183, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exchange-send .generated li {
+  margin-bottom: 15px;
+}
+/* line 1187, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exchange-send .generated span {
+  margin-right: 15px;
+}
+/* line 1191, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exchange-send .generated span.code {
+  width: 415px;
+  font-size: 16px;
+  float: left;
+}
+/* line 1197, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exchange-send .generated a {
+  display: block;
+  overflow: hidden;
+  text-align: right;
+}
+/* line 1203, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exchange-send .generated span b {
+  font-weight: normal;
+  border-bottom: 1px #444444 dotted;
+}
+/* line 1207, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exchange-send .generated span b:hover {
+  cursor: pointer;
+}
+/* line 1212, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exchange-send .generated .exchange-lessons {
+  display: none;
+}
+/* line 1215, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exchange-send .generated .exchange-lessons p {
+  margin-top: 4px;
+}
+/* line 1221, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exchange-send .generated-notice {
+  margin-top: 10px;
+}
+/* line 1225, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exchange-send form.new {
+  padding-bottom: 60px;
+  width: 500px;
+}
+/* line 1230, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exchange-send .amount {
+  font-weight: bold;
+}
+/* line 1234, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exchange-send .big-error {
+  margin-bottom: 20px;
+}
+
+/* line 1240, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exhange-send input[type="submit"], #lessons-exchange-recieve input[type="submit"] {
+  background: #29AACA;
+  border: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 1em;
+  height: 26px;
+  font-weight: normal;
+}
+/* line 1250, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exhange-send input[type="submit"]:hover, #lessons-exchange-recieve input[type="submit"]:hover {
+  background: #4bbedb;
+}
+
+/* line 1256, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exchange-recieve {
+  font-size: 13px;
+}
+/* line 1259, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exchange-recieve input[type="text"] {
+  display: block;
+  width: 200px;
+  margin-top: 3px;
+}
+/* line 1265, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exchange-recieve .submit {
+  margin-top: 13px;
+}
+/* line 1268, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exchange-recieve .submit input {
+  width: 100px;
+}
+/* line 1273, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exchange-recieve .title {
+  margin-top: 15px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+/* line 1279, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exchange-recieve ul {
+  margin-bottom: 10px;
+}
+/* line 1283, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exchange-recieve .notice {
+  font-size: 12px;
+  color: #AFAFB0;
+}
+/* line 1288, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exchange-recieve b {
+  font-weight: bold;
+}
+/* line 1292, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exchange-recieve .cancel {
+  background: #AE484A;
+  color: #FFF;
+  display: inline-block;
+  height: 26px;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 26px;
+  margin-right: 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 1303, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exchange-recieve .cancel:hover {
+  background: #c1686a;
+}
+/* line 1308, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exchange-recieve .success {
+  color: #58B959;
+  margin-bottom: 20px;
+}
+/* line 1313, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#lessons-exchange-recieve .error {
+  color: red;
+  margin-top: 10px;
+}
+
+/* line 1319, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.log-addition {
+  color: green;
+}
+
+/* line 1323, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.log-deletion {
+  color: red;
+}
+
+/* line 1327, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.delete-student-newexam {
+  color: red;
+  font-weight: bold;
+}
+
+/* line 1332, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#student_form .discount .add-another {
+  display: none;
+}
+
+/* line 1337, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.module-payment-block p {
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+/* line 1341, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.module-payment-block p:last-child {
+  margin-bottom: 5px;
+}
+
+/* line 1347, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.blue-link {
+  color: #009BBD !important;
+  font-weight: normal !important;
+}
+
+/* line 1352, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+.lesson-description {
+  overflow: hidden;
+  padding-bottom: 15px;
+}
+
+/* line 1358, /home/autoshkola/autoshkola/static/scss/admin_extra.scss */
+#exams-queue-list ol {
+  list-style-type: decimal;
+  margin-left: 15px;
+}

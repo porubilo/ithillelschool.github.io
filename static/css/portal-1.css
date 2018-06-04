@@ -1,0 +1,1218 @@
+﻿/* fancyBox v2.0.4 fancyapps.com | fancyapps.com/fancybox/#license */
+/* line 2, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+.fancybox-tmp iframe, .fancybox-tmp object {
+  vertical-align: top;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 8, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+.fancybox-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1002;
+}
+
+/* line 15, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+.fancybox-outer {
+  padding: 0;
+  margin: 0;
+  background: #f9f9f9;
+  color: #444;
+  text-shadow: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 26, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+.fancybox-opened {
+  z-index: 1003;
+}
+
+/* line 30, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+.fancybox-opened .fancybox-outer {
+  -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+/* line 36, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+.fancybox-inner {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  outline: none;
+  overflow: hidden;
+}
+
+/* line 46, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+.fancybox-error {
+  color: #444;
+  font: 14px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 10px;
+}
+
+/* line 53, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+.fancybox-image, .fancybox-iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  vertical-align: top;
+}
+
+/* line 63, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+.fancybox-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* line 68, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+#fancybox-loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -21px;
+  margin-left: -21px;
+  width: 42px;
+  height: 42px;
+  background: url('../images/fancybox/fancybox_loading-1.gif');
+  opacity: 0.8;
+  cursor: pointer;
+  z-index: 1010;
+}
+
+/* line 82, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+.fancybox-close, .fancybox-prev span, .fancybox-next span {
+  background-image: url('../images/fancybox/fancybox_sprite-1.png');
+}
+
+/* line 86, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+.fancybox-close {
+  position: absolute;
+  top: -18px;
+  right: -18px;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  z-index: 1004;
+}
+
+/* line 96, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+.fancybox-prev, .fancybox-next {
+  position: absolute;
+  top: 0;
+  width: 40%;
+  height: 100%;
+  cursor: pointer;
+  background: transparent url('../images/fancybox/blank-1.gif');
+  /* helps IE */
+  z-index: 1003;
+}
+
+/* line 106, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+.fancybox-prev {
+  left: 0;
+}
+
+/* line 110, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+.fancybox-next {
+  right: 0;
+}
+
+/* line 114, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+.fancybox-prev span, .fancybox-next span {
+  position: absolute;
+  top: 50%;
+  left: -9999px;
+  width: 36px;
+  height: 36px;
+  margin-top: -18px;
+  cursor: pointer;
+  z-index: 1003;
+}
+
+/* line 125, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+.fancybox-prev span {
+  background-position: 0 -36px;
+}
+
+/* line 129, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+.fancybox-next span {
+  background-position: 0 -72px;
+}
+
+/* line 133, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+.fancybox-prev:hover, .fancybox-next:hover {
+  visibility: visible;
+}
+
+/* line 137, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+.fancybox-prev:hover span {
+  left: 20px;
+}
+
+/* line 141, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+.fancybox-next:hover span {
+  left: auto;
+  right: 20px;
+}
+
+/* line 146, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+.fancybox-tmp {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  padding: 0;
+  overflow: visible;
+  visibility: hidden;
+}
+
+/* Overlay helper */
+/* line 157, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+#fancybox-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  display: none;
+  z-index: 1001;
+  background: #000;
+}
+
+/* Title helper */
+/* line 169, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+.fancybox-title {
+  visibility: hidden;
+  font: normal 13px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: relative;
+  text-shadow: none;
+  z-index: 1005;
+}
+
+/* line 177, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+.fancybox-opened .fancybox-title {
+  visibility: visible;
+}
+
+/* line 181, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+.fancybox-title-float-wrap {
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  margin-bottom: -35px;
+  z-index: 1003;
+  text-align: center;
+}
+
+/* line 190, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+.fancybox-title-float-wrap .child {
+  display: inline-block;
+  margin-right: -100%;
+  padding: 2px 20px;
+  background: transparent;
+  /* Fallback for web browsers that doesn't support RGBa */
+  background: rgba(0, 0, 0, 0.8);
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  text-shadow: 0 1px 2px #222;
+  color: #FFF;
+  font-weight: bold;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+/* line 206, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+.fancybox-title-outside-wrap {
+  position: relative;
+  margin-top: 10px;
+  color: #fff;
+}
+
+/* line 212, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+.fancybox-title-inside-wrap {
+  margin-top: 10px;
+}
+
+/* line 216, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+.fancybox-title-over-wrap {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  padding: 10px;
+  background: #000;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* line 226, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+#fancybox-thumbs {
+  position: fixed;
+  left: 0px;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1005;
+}
+
+/* line 234, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+#fancybox-thumbs.bottom {
+  bottom: 2px;
+}
+
+/* line 238, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+#fancybox-thumbs.top {
+  top: 2px;
+}
+
+/* line 242, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+#fancybox-thumbs ul {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 249, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+#fancybox-thumbs ul li {
+  float: left;
+  padding: 1px;
+  opacity: 0.5;
+}
+
+/* line 255, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+#fancybox-thumbs ul li.active {
+  opacity: 0.75;
+  padding: 0;
+  border: 1px solid #fff;
+}
+
+/* line 261, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+#fancybox-thumbs ul li:hover {
+  opacity: 1;
+}
+
+/* line 265, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+#fancybox-thumbs ul li a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #222;
+  background: #111;
+  outline: none;
+}
+
+/* line 274, /home/autoshkola/autoshkola/static/scss/pages/_fancybox.scss */
+#fancybox-thumbs ul li img {
+  display: block;
+  position: relative;
+  border: 0;
+  padding: 0;
+}
+
+/* line 1, /home/autoshkola/autoshkola/static/scss/pages/_home.scss */
+.opening {
+  padding: 10px 0 30px 0;
+  text-align: center;
+}
+
+/* line 6, /home/autoshkola/autoshkola/static/scss/pages/_home.scss */
+.text-2, .text-3 {
+  width: 31.91489%;
+  float: left;
+  margin-right: 2.12766%;
+  display: inline;
+}
+
+/* line 10, /home/autoshkola/autoshkola/static/scss/pages/_home.scss */
+.text-4 {
+  width: 31.91489%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -20px;
+  display: inline;
+}
+
+/* line 14, /home/autoshkola/autoshkola/static/scss/pages/_home.scss */
+.text-1, .text-5 {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -20px;
+  display: inline;
+}
+
+/* line 18, /home/autoshkola/autoshkola/static/scss/pages/_home.scss */
+.text-1 {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px #242424 solid;
+}
+
+/* line 24, /home/autoshkola/autoshkola/static/scss/pages/_home.scss */
+.text-5 {
+  color: #FFF;
+  text-align: center;
+  margin: 50px 0 50px 0;
+  font-size: 20px;
+}
+
+/* line 31, /home/autoshkola/autoshkola/static/scss/pages/_home.scss */
+.news-preview {
+  padding: 10px 0 20px 0;
+  margin-bottom: 10px;
+  border-bottom: 1px #242424 solid;
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -20px;
+  display: inline;
+  overflow: hidden;
+}
+/* line 38, /home/autoshkola/autoshkola/static/scss/pages/_home.scss */
+.news-preview a {
+  display: inline-block;
+  margin-right: 20px;
+  border: 1px none solid;
+  font-weight: normal !important;
+}
+/* line 44, /home/autoshkola/autoshkola/static/scss/pages/_home.scss */
+.news-preview a:hover {
+  text-decoration: none !important;
+  position: relative;
+}
+/* line 50, /home/autoshkola/autoshkola/static/scss/pages/_home.scss */
+.news-preview .news-item {
+  width: 48.93617%;
+  float: left;
+  margin-right: 2.12766%;
+  display: inline;
+  margin-bottom: 20px;
+}
+/* line 54, /home/autoshkola/autoshkola/static/scss/pages/_home.scss */
+.news-preview .news-item:nth-child(2n) {
+  float: right;
+  margin-right: 0;
+  #margin-left: -20px;
+  display: inline;
+}
+/* line 57, /home/autoshkola/autoshkola/static/scss/pages/_home.scss */
+.news-preview img {
+  float: left;
+  vertical-align: top;
+  width: 100px;
+  height: 70px;
+  margin-right: 10px;
+}
+
+/* line 2, /home/autoshkola/autoshkola/static/scss/pages/_cost.scss */
+.cost-page ul, .cost-page li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* line 9, /home/autoshkola/autoshkola/static/scss/pages/_cost.scss */
+#categories li {
+  display: block;
+}
+/* line 12, /home/autoshkola/autoshkola/static/scss/pages/_cost.scss */
+#categories li span {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFF;
+}
+
+/* line 21, /home/autoshkola/autoshkola/static/scss/pages/_cost.scss */
+#cost {
+  margin: 30px 0 30px 0;
+}
+
+/* line 26, /home/autoshkola/autoshkola/static/scss/pages/_cost.scss */
+#cost li, #driving-hours li {
+  display: none;
+}
+/* line 29, /home/autoshkola/autoshkola/static/scss/pages/_cost.scss */
+#cost li div, #driving-hours li div {
+  margin: 0 0 10px 0;
+}
+/* line 34, /home/autoshkola/autoshkola/static/scss/pages/_cost.scss */
+#cost .selected, #driving-hours .selected {
+  display: block;
+}
+
+/* line 40, /home/autoshkola/autoshkola/static/scss/pages/_cost.scss */
+#driving-hours input {
+  width: 40px;
+}
+
+/* line 45, /home/autoshkola/autoshkola/static/scss/pages/_cost.scss */
+#compute-cost {
+  margin-top: 30px;
+  overflow: hidden;
+}
+/* line 49, /home/autoshkola/autoshkola/static/scss/pages/_cost.scss */
+#compute-cost button {
+  width: 100px;
+  float: left;
+}
+/* line 54, /home/autoshkola/autoshkola/static/scss/pages/_cost.scss */
+#compute-cost span {
+  font-weight: bold;
+  padding: 10px 0 5px 15px;
+  float: left;
+}
+
+/* line 61, /home/autoshkola/autoshkola/static/scss/pages/_cost.scss */
+#additional-cost {
+  margin: 0 0 30px 0;
+  text-align: left;
+}
+/* line 65, /home/autoshkola/autoshkola/static/scss/pages/_cost.scss */
+#additional-cost td {
+  padding: 10px 0 10px 0;
+}
+/* line 69, /home/autoshkola/autoshkola/static/scss/pages/_cost.scss */
+#additional-cost tr {
+  border-bottom: 1px #2E2E2E solid;
+  display: block;
+}
+/* line 73, /home/autoshkola/autoshkola/static/scss/pages/_cost.scss */
+#additional-cost tr:first-child {
+  border-top: 1px #2E2E2E solid;
+}
+/* line 78, /home/autoshkola/autoshkola/static/scss/pages/_cost.scss */
+#additional-cost .service {
+  width: 300px;
+}
+
+/* line 1, /home/autoshkola/autoshkola/static/scss/pages/_intakes.scss */
+#intakes-wrapper {
+  text-align: center;
+}
+
+/* line 5, /home/autoshkola/autoshkola/static/scss/pages/_intakes.scss */
+#intakes {
+  border-collapse: collapse;
+  display: inline-block;
+}
+/* line 9, /home/autoshkola/autoshkola/static/scss/pages/_intakes.scss */
+#intakes th {
+  font-weight: bold;
+  font-size: 18px;
+}
+/* line 14, /home/autoshkola/autoshkola/static/scss/pages/_intakes.scss */
+#intakes th, #intakes td {
+  padding: 20px 0 20px 0;
+  text-align: center;
+}
+/* line 19, /home/autoshkola/autoshkola/static/scss/pages/_intakes.scss */
+#intakes tr {
+  border-bottom: 1px #2E2E2E solid;
+}
+/* line 26, /home/autoshkola/autoshkola/static/scss/pages/_intakes.scss */
+#intakes .schedule {
+  width: 400px;
+}
+/* line 30, /home/autoshkola/autoshkola/static/scss/pages/_intakes.scss */
+#intakes .gathering {
+  width: 360px;
+}
+/* line 34, /home/autoshkola/autoshkola/static/scss/pages/_intakes.scss */
+#intakes td.date {
+  font-size: medium;
+  color: #FF0000;
+}
+
+/* line 2, /home/autoshkola/autoshkola/static/scss/pages/_application_form.scss */
+.application-form input[type="text"] {
+  width: 285px;
+}
+/* line 6, /home/autoshkola/autoshkola/static/scss/pages/_application_form.scss */
+.application-form select {
+  width: 300px;
+}
+/* line 10, /home/autoshkola/autoshkola/static/scss/pages/_application_form.scss */
+.application-form #id_phone_number {
+  width: 255px;
+}
+/* line 14, /home/autoshkola/autoshkola/static/scss/pages/_application_form.scss */
+.application-form ul {
+  list-style-type: none;
+  margin: 5px 0 0 0;
+  padding: 0;
+}
+/* line 20, /home/autoshkola/autoshkola/static/scss/pages/_application_form.scss */
+.application-form legend {
+  color: #DBD7D2;
+}
+/* line 24, /home/autoshkola/autoshkola/static/scss/pages/_application_form.scss */
+.application-form .errorlist {
+  color: #C14A48;
+}
+/* line 28, /home/autoshkola/autoshkola/static/scss/pages/_application_form.scss */
+.application-form .required {
+  font-weight: bold;
+}
+/* line 32, /home/autoshkola/autoshkola/static/scss/pages/_application_form.scss */
+.application-form button {
+  margin-top: 20px;
+}
+
+/* line 1, /home/autoshkola/autoshkola/static/scss/pages/_gallery.scss */
+.gallery-image {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  width: 129px;
+}
+/* line 8, /home/autoshkola/autoshkola/static/scss/pages/_gallery.scss */
+.gallery-image a {
+  color: #DBD7D2;
+  text-decoration: none;
+}
+/* line 13, /home/autoshkola/autoshkola/static/scss/pages/_gallery.scss */
+.gallery-image a:focus, .gallery-image a:hover {
+  outline: none;
+}
+/* line 16, /home/autoshkola/autoshkola/static/scss/pages/_gallery.scss */
+.gallery-image a:focus img, .gallery-image a:hover img {
+  outline: 3px solid #000F13;
+}
+/* line 20, /home/autoshkola/autoshkola/static/scss/pages/_gallery.scss */
+.gallery-image a:focus .caption, .gallery-image a:hover .caption {
+  color: white;
+  outline: 3px solid #000F13;
+  background-color: #000F13;
+}
+/* line 27, /home/autoshkola/autoshkola/static/scss/pages/_gallery.scss */
+.gallery-image .caption {
+  display: block;
+  text-align: center;
+  padding: 5px 0;
+  line-height: 120%;
+  font-weight: normal;
+}
+
+/* line 2, /home/autoshkola/autoshkola/static/scss/pages/_team.scss */
+.team .gallery-image {
+  width: 210px;
+  margin-right: 10px;
+}
+
+/* line 1, /home/autoshkola/autoshkola/static/scss/pages/_training.scss */
+.training {
+  overflow: hidden;
+}
+/* line 4, /home/autoshkola/autoshkola/static/scss/pages/_training.scss */
+.training .dynamic-pages {
+  width: 23.40426%;
+  float: left;
+  margin-right: 2.12766%;
+  display: inline;
+}
+/* line 7, /home/autoshkola/autoshkola/static/scss/pages/_training.scss */
+.training .dynamic-pages ul, .training .dynamic-pages li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+/* line 12, /home/autoshkola/autoshkola/static/scss/pages/_training.scss */
+.training .dynamic-pages ul {
+  padding-right: 20px;
+  min-height: 300px;
+  border-right: 1px #242424 solid;
+}
+/* line 18, /home/autoshkola/autoshkola/static/scss/pages/_training.scss */
+.training .dynamic-pages li {
+  margin-bottom: 10px;
+}
+/* line 22, /home/autoshkola/autoshkola/static/scss/pages/_training.scss */
+.training .dynamic-pages a {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  padding: 5px 0 5px 5px;
+  display: block;
+  font-size: 15px;
+  color: #FFF;
+  text-decoration: none;
+}
+/* line 30, /home/autoshkola/autoshkola/static/scss/pages/_training.scss */
+.training .dynamic-pages a:hover {
+  background: #0099CC;
+  text-decoration: none;
+}
+/* line 36, /home/autoshkola/autoshkola/static/scss/pages/_training.scss */
+.training .dynamic-pages a.selected {
+  background: #66cc66;
+}
+/* line 41, /home/autoshkola/autoshkola/static/scss/pages/_training.scss */
+.training .training-info {
+  overflow: hidden;
+  width: 74.46809%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -20px;
+  display: inline;
+}
+
+/* line 2, /home/autoshkola/autoshkola/static/scss/pages/_dynamic_page.scss */
+#dynamic-page .content {
+  margin: 0;
+  padding: 0;
+}
+/* line 7, /home/autoshkola/autoshkola/static/scss/pages/_dynamic_page.scss */
+#dynamic-page .title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* line 1, /home/autoshkola/autoshkola/static/scss/pages/_contacts.scss */
+.contacts-page {
+  overflow: hidden;
+}
+/* line 4, /home/autoshkola/autoshkola/static/scss/pages/_contacts.scss */
+.contacts-page .first, .contacts-page .second {
+  width: 470px;
+  float: left;
+}
+
+/* line 3, /home/autoshkola/autoshkola/static/scss/pages/_news.scss */
+.post {
+  overflow: hidden;
+  border-bottom: 1px #242424 solid;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+/* line 9, /home/autoshkola/autoshkola/static/scss/pages/_news.scss */
+.post h3 {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0;
+}
+/* line 14, /home/autoshkola/autoshkola/static/scss/pages/_news.scss */
+.post h3 a {
+  font-weight: bold;
+  color: #FFF;
+  text-decoration: none;
+}
+/* line 19, /home/autoshkola/autoshkola/static/scss/pages/_news.scss */
+.post h3 a:hover {
+  color: #FFF;
+}
+/* line 25, /home/autoshkola/autoshkola/static/scss/pages/_news.scss */
+.post .pub-date {
+  margin-top: 3px;
+  color: #666;
+}
+/* line 30, /home/autoshkola/autoshkola/static/scss/pages/_news.scss */
+.post .a {
+  width: 65.95745%;
+  float: left;
+  margin-right: 2.12766%;
+  display: inline;
+}
+/* line 34, /home/autoshkola/autoshkola/static/scss/pages/_news.scss */
+.post .b {
+  width: 31.91489%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -20px;
+  display: inline;
+}
+/* line 38, /home/autoshkola/autoshkola/static/scss/pages/_news.scss */
+.post .a-no-image {
+  float: none;
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -20px;
+  display: inline;
+}
+/* line 43, /home/autoshkola/autoshkola/static/scss/pages/_news.scss */
+.post .count-wrapper {
+  position: relative;
+}
+/* line 47, /home/autoshkola/autoshkola/static/scss/pages/_news.scss */
+.post .short-description, .post .post-content {
+  margin-top: 10px;
+}
+/* line 51, /home/autoshkola/autoshkola/static/scss/pages/_news.scss */
+.post .image {
+  text-align: right;
+  width: 220px;
+  height: 160px;
+}
+/* line 55, /home/autoshkola/autoshkola/static/scss/pages/_news.scss */
+.post .image img {
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+  width: 220px;
+  height: 160px;
+  position: relative;
+  top: 6px;
+}
+/* line 64, /home/autoshkola/autoshkola/static/scss/pages/_news.scss */
+.post .more {
+  padding-top: 5px;
+}
+/* line 67, /home/autoshkola/autoshkola/static/scss/pages/_news.scss */
+.post .more a {
+  font-weight: normal;
+}
+
+/* line 74, /home/autoshkola/autoshkola/static/scss/pages/_news.scss */
+.comments-count img {
+  width: 20px;
+  position: relative;
+  right: -3px;
+}
+/* line 80, /home/autoshkola/autoshkola/static/scss/pages/_news.scss */
+.comments-count span {
+  position: relative;
+  top: -6px;
+}
+
+/* line 86, /home/autoshkola/autoshkola/static/scss/pages/_news.scss */
+#download-posts {
+  margin-top: 30px;
+  display: inline-block;
+  padding: 8px 50px 8px 50px;
+  background: #222222;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  color: #FFF;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+/* line 97, /home/autoshkola/autoshkola/static/scss/pages/_news.scss */
+#download-posts:hover {
+  background: #BA101B;
+}
+
+/* line 102, /home/autoshkola/autoshkola/static/scss/pages/_news.scss */
+.download-posts-wrapper {
+  text-align: center;
+}
+
+/* line 2, /home/autoshkola/autoshkola/static/scss/pages/_comments.scss */
+#comments ul, #comments li {
+  margin: 0;
+  padding: 0;
+  list-style-type: 0;
+}
+/* line 8, /home/autoshkola/autoshkola/static/scss/pages/_comments.scss */
+#comments div {
+  margin-bottom: 10px;
+}
+/* line 12, /home/autoshkola/autoshkola/static/scss/pages/_comments.scss */
+#comments input[type="text"], #comments input[type="email"] {
+  width: 160px;
+}
+/* line 16, /home/autoshkola/autoshkola/static/scss/pages/_comments.scss */
+#comments input[type="submit"] {
+  width: 100px;
+}
+/* line 21, /home/autoshkola/autoshkola/static/scss/pages/_comments.scss */
+#comments textarea {
+  width: 300px;
+  height: 100px;
+}
+/* line 26, /home/autoshkola/autoshkola/static/scss/pages/_comments.scss */
+#comments .my-captcha {
+  margin: 10px 0 20px 0;
+}
+/* line 29, /home/autoshkola/autoshkola/static/scss/pages/_comments.scss */
+#comments .my-captcha p {
+  margin: 0 0 5px 0;
+}
+/* line 33, /home/autoshkola/autoshkola/static/scss/pages/_comments.scss */
+#comments .my-captcha input {
+  width: 80px;
+  position: relative;
+  top: -8px;
+  left: 10px;
+  text-transform: uppercase;
+}
+/* line 42, /home/autoshkola/autoshkola/static/scss/pages/_comments.scss */
+#comments h3 {
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+/* line 49, /home/autoshkola/autoshkola/static/scss/pages/_comments.scss */
+#comments .name {
+  font-weight: bold;
+}
+/* line 53, /home/autoshkola/autoshkola/static/scss/pages/_comments.scss */
+#comments .date {
+  font-size: 12px;
+  color: #666;
+  margin-left: 10px;
+}
+/* line 59, /home/autoshkola/autoshkola/static/scss/pages/_comments.scss */
+#comments ul {
+  margin: 0 0 30px 0;
+  width: 530px;
+}
+/* line 64, /home/autoshkola/autoshkola/static/scss/pages/_comments.scss */
+#comments li {
+  margin-bottom: 20px;
+}
+/* line 69, /home/autoshkola/autoshkola/static/scss/pages/_comments.scss */
+#comments .error input, #comments .error textarea {
+  border: 2px red solid;
+}
+/* line 73, /home/autoshkola/autoshkola/static/scss/pages/_comments.scss */
+#comments .error input[type="submit"] {
+  border: 0;
+}
+
+/* line 23, /home/autoshkola/autoshkola/static/scss/portal.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 27, /home/autoshkola/autoshkola/static/scss/portal.scss */
+body {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 13px;
+  color: #DBD7D2;
+}
+
+/* line 33, /home/autoshkola/autoshkola/static/scss/portal.scss */
+p {
+  line-height: 1.5em;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* line 39, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.top {
+  height: 393px;
+  background: url('../images/portal/head-1.png') center top no-repeat;
+  background-color: #EBECEC;
+}
+
+/* line 45, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.container {
+  *zoom: 1;
+  width: 940px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 38, /var/lib/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 50, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.top .container {
+  position: relative;
+}
+
+/* line 55, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.logo {
+  top: 30px;
+  position: absolute;
+}
+
+/* line 60, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.menu {
+  background: url('../images/portal/menu_bg-1.gif') repeat;
+  text-align: center;
+  border-top: 1px #2E2E2E solid;
+  border-bottom: 1px #2E2E2E solid;
+}
+/* line 66, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.menu .container {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  height: 50px;
+}
+/* line 72, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.menu ul, .menu li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+/* line 77, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.menu ul {
+  display: inline-block;
+  overflow: hidden;
+}
+/* line 82, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.menu li {
+  float: left;
+}
+/* line 86, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.menu a {
+  padding: 15px 13px 15px 13px;
+  line-height: 50px;
+  color: #DBD7D2;
+  font-size: 18px;
+  text-decoration: none;
+}
+/* line 93, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.menu a:hover {
+  background: #680000;
+  color: #FFF;
+}
+/* line 100, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.menu .current a {
+  background: #0099cc;
+  color: #FFF;
+}
+
+/* line 107, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.content {
+  padding: 20px 0 20px 0;
+  min-height: 400px;
+  background: url('../images/portal/bg-1.gif') repeat;
+}
+/* line 112, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.content a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* line 116, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.content a:hover {
+  text-decoration: underline;
+}
+
+/* line 122, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.footer {
+  height: 300px;
+  background: url('../images/portal/footer_bg-1.jpg') no-repeat center top;
+  font-size: 11px;
+  color: #D69AB1;
+}
+/* line 128, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.footer .wrapper {
+  padding-top: 90px;
+  border-bottom: 1px #661414 solid;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+/* line 136, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.footer .phone {
+  width: 420px;
+  float: left;
+  position: relative;
+}
+/* line 141, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.footer .phone span {
+  font-size: 18px;
+  position: absolute;
+  top: 10px;
+  left: 90px;
+}
+/* line 149, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.footer .contact {
+  width: 510px;
+  float: left;
+}
+/* line 153, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.footer .contact a {
+  color: #FFF;
+  text-decoration: underline;
+}
+/* line 156, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.footer .contact a:hover {
+  text-decoration: none;
+}
+/* line 162, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.footer .copy {
+  width: 250px;
+  float: left;
+}
+/* line 167, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.footer .small-menu {
+  width: 690px;
+  text-align: right;
+  float: left;
+}
+/* line 172, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.footer .small-menu ul, .footer .small-menu li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+/* line 177, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.footer .small-menu ul {
+  display: inline-block;
+}
+/* line 181, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.footer .small-menu li {
+  float: left;
+  padding: 0 7px 0 7px;
+  border-left: 1px #B9949C solid;
+}
+/* line 185, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.footer .small-menu li:first-child {
+  border: 0;
+}
+/* line 190, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.footer .small-menu a {
+  color: #D69AB1;
+  text-decoration: none;
+}
+/* line 193, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.footer .small-menu a:hover {
+  text-decoration: underline;
+}
+
+/* line 201, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.text-block a {
+  color: #FFF;
+  text-decoration: underline;
+}
+/* line 205, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.text-block a:hover {
+  text-decoration: none;
+}
+/* line 210, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.text-block a.more {
+  text-align: center;
+  color: #FFF;
+  text-decoration: none;
+  background: url('../images/portal/read_but-1.gif') 0 0;
+  height: 59px;
+  display: block;
+}
+/* line 218, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.text-block a.more:hover {
+  background: url('../images/portal/read_but-1.gif') 0% -118px;
+}
+/* line 222, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.text-block a.more span {
+  background: url('../images/portal/read_but-1.gif') 100% -59px;
+  line-height: 59px;
+  font-size: 16px;
+  display: block;
+}
+/* line 228, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.text-block a.more span:hover {
+  background: url('../images/portal/read_but-1.gif') 100% -177px;
+}
+
+/* line 235, /home/autoshkola/autoshkola/static/scss/portal.scss */
+h3 {
+  margin: 0 0 10px 0;
+  padding: 0;
+  font-size: 18px;
+  color: #FFF;
+}
+
+/* line 242, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.info-text-1, .info-text-2 {
+  width: 31.91489%;
+  float: left;
+  margin-right: 2.12766%;
+  display: inline;
+}
+
+/* line 246, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.info-text-3 {
+  width: 31.91489%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -20px;
+  display: inline;
+}
+
+/* line 250, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.info {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -20px;
+  display: inline;
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px #242424 solid;
+}
+
+/* line 258, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.info-text-block a {
+  font-weight: normal;
+}
+/* line 262, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.info-text-block .wrapper {
+  padding: 5px;
+}
+/* line 265, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.info-text-block .wrapper:hover {
+  padding: 4px;
+  border: 1px #2C2C2C solid;
+}
+/* line 270, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.info-text-block a.title {
+  color: #FFF;
+  text-decoration: none;
+}
+/* line 275, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.info-text-block a.text {
+  color: #DBD7D2;
+  text-decoration: none;
+}
+
+/* line 281, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.add-on {
+  color: #000;
+}
+
+/* line 285, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.input-prepend input {
+  width: 177px;
+}
+
+/* line 289, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.unsubscribe-page {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #66CC66;
+}
+
+/* line 296, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.picture {
+  width: 300px;
+  height: 150px;
+  position: absolute;
+  right: 0;
+  top: 30px;
+}
+
+/* line 304, /home/autoshkola/autoshkola/static/scss/portal.scss */
+.http-error {
+  margin-top: 30px;
+  font-size: 22px;
+  color: red;
+}
